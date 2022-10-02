@@ -1,4 +1,7 @@
 # Rusty AutoClicker
+A Rust-based command-line tool for emulating mouse clicks.
+
+## UI
 
 <div align="center">
 
@@ -11,12 +14,24 @@
 
 </div>
 <div align="center">
-  
+
+### Main Interface
 [![](/screenshots/v2.1.0/rusty-autoclicker_0dnvDPcANp.png?raw=true "Main Interface")](#)
+
+### Hotkey Change
 [![](/screenshots/v2.1.0/rusty-autoclicker_a4asg2fXnT.png?raw=true "Hotkey Change")](#)
+
+### Setting Coordinates
 [![](/screenshots/v2.1.0/rusty-autoclicker_ClJzyc8yHz.png?raw=true "Setting Coordinates")](#)
   
 </div>
+
+### Options
+* ClickInterval: interval between two click events
+* Mouse Button: which button to click
+* Click Type: single or double click (TODO: mention the interval between both clicks, and describe how interval is affected by this - i.e. is interval between end of first double-click and start of second-double click or between the start of first double-click and start of second double-click)
+* Click Amount: how many clicks to perform
+* Click Position: whether the click should be performed at the current mouse position or at the given x/y coordinates. In the latter case, the mouse will be moved to the target location before the first click is performed.
 
 ## Building from source
 
